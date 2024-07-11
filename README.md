@@ -8,6 +8,10 @@
 | 5027201061 | Gennaro Fajar Mennde           | 10.15.40.61    |
 
 # Langkah Pengerjaan
+## Arsitektur Sistem
+Pada pengerjaan final project, penggunaan kluster menggunakan K3S dengan 4 node, 1 node master, dan 3 node agent. Arsitektur sistem dapat ditemukan pada gambar berikut\
+![arsi](images/arsitektur.jpg)
+Node **master** yang digunakan adalah IP **10.15.40.60** dan node **agent** yang digunakan adalah **10.15.40.57, 10.15.40.58, 10.15.40.61**
 ## Setup K3S pada setiap node (VM) 
 ### Node Server
 1. Install K3S pada node server dengan perintah berikut
